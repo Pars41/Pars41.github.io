@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.casio{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./img/watch.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 28.5rem;
+    height: 14rem; 
+    position: relative;
+    margin-top: 2.5rem;
+    margin-left: .5rem;
+    
+}
+
+
+.clock {
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 90px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    font-weight: 900; 
+
+}
+.min{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 90px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    font-weight: 900; 
+}
+.sec{
+    position: absolute;
+    top: 70%;
+    left: 89%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+}
+.session{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 25px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+}
+.day{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+}
+.date{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+}
+.light{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: -39%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+    cursor: pointer;
+
+}
+.lightOnOff{
+    background-color: rgba(36, 229, 36, 0.63);
+    border-radius: 2rem;
+}
+#myAudio{
+    display: none;
+}
+.alarm{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 99%;
+    right: -55%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+    cursor: pointer;
+}
+.mode{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 99%;
+    left: -40%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #292C31;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 5px;
+    font-weight: 900; 
+    cursor: pointer;
+
+    
+}
